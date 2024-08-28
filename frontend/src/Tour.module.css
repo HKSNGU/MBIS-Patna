@@ -1,0 +1,18 @@
+.content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  color: #fff;
+}
+
+.content .head {
+  text-align: center;
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 300;
+}

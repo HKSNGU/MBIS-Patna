@@ -1,0 +1,96 @@
+.container {
+  height: fit-content;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 0 100px 50px;
+}
+
+.card {
+  height: fit-content;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px #e9e9e9;
+  position: relative;
+  bottom: 50px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row1 .col1,
+.row1 .col2,
+.row1 .col3,
+.row1 .col4 {
+  background-color: #fff;
+  padding: 50px 10px;
+  display: flex;
+}
+
+.row1 .icon {
+  margin-right: 25px;
+}
+
+.row1 .head {
+  text-decoration: none;
+  color: #192f59;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.row1 .para {
+  font-size: 16px;
+  color: #cccccc;
+  margin: 0;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row2 .img_container {
+  width: 50%;
+}
+
+.row2 .img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row2 .content_container {
+  width: 50%;
+  color: #fff;
+}
+
+.row2 .content {
+  padding: 75px;
+}
+
+.row2 .content h5 {
+  font-weight: 600 !important;
+  margin-bottom: 25px;
+}
+
+.row2 .content p {
+  margin-bottom: 25px;
+}
+
+.row2 .content button {
+  background-color: #fff;
+  border-style: none;
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.row2 .content button:hover {
+  box-shadow: 0 0 3px #fff;
+}

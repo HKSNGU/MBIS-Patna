@@ -1,0 +1,28 @@
+.row1 {
+  background-color: #1b2945;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 80px;
+}
+
+.row1 .col1,
+.row1 .col2 {
+  width: 50%;
+}
+
+.row1 .col1 h3,
+.row1 .col2 h3 {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.row1 .col1 p,
+.row1 .col2 p {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.row1 a {
+  text-decoration: none;
+  color: #fff;
+}
